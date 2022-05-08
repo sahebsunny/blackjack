@@ -1,0 +1,150 @@
+body {
+  background-image: url(img/board1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.start_game_head{
+  position: absolute;
+  left: 39%;
+  top: 10%;
+  font-size: 60px;
+  color: yellow;
+  text-decoration: underline overline;
+}
+
+.start_game{
+  position: absolute;
+  left: 37%;
+  top: 30%;
+
+}
+#log_b{
+  height: 300px;
+  width: 350px;
+}
+
+.num1{
+  position: absolute;
+  left: 29%;
+  top: 22%;
+  color: yellow;
+
+}
+.num2{
+  position: absolute;
+  left: 29%;
+  top: 60%;
+  color: yellow;
+
+}
+.result_board{
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  color: yellow;
+}
+
+.box{
+  height: 1px;
+  width: 1px;
+  background-color: #06f6ff;
+  position: absolute;
+  margin-right: 20%;
+}
+
+
+.btnnn2 {
+  position: relative;
+  bottom: -570px;
+  left: 45%;
+  float:left;
+  padding: 15px;
+  margin: 15px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+    background: #ffd700;
+    color: #016f32;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btnnn2:hover {background-color: #00ff7f;color: #000000;}
+
+.btnnn2:active {
+  background-color: #40e0d0;
+  box-shadow: 0 3px #4682b4;
+  transform: translateY(4px);
+  color: #FFFFFF;
+}
+
+.btnn{
+  position: relative;
+  bottom: -570px;
+  float:left;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 80px;
+    background: #ffd700;
+    color: #016f32;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btnn:hover {background-color: #00ff7f;color: #000000;}
+
+.btnn:active {
+  background-color: #40e0d0;
+  box-shadow: 0 3px #4682b4;
+  transform: translateY(4px);
+  color: #FFFFFF;
+}
+
+#new_game{
+  left: 40%;
+}
+#hit{
+  left: -30%;
+}
+
+.card_img{
+  height: 120px;
+  width: 80px;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 500px) {
+
+  #log_b{
+    height: 300px;
+    width: 350px;
+    position: relative;
+    left: -20%;
+    bottom: -60%;
+  }
+  .start_game_head{
+    position: absolute;
+    left: 24%;
+    top: 10%;
+    font-size: 60px;
+    color: yellow;
+    text-decoration: underline overline;
+  }
+  .btnnn2{
+    left: 45%;
+  }
+
+  #hit{
+    margin-left: -100px;
+
+  }
+
+}
